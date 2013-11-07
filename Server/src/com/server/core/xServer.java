@@ -5,6 +5,11 @@ public class xServer {
 	private IServerMonitor mMonitor;
 	private IServerManager mManager;
 	
+	public xServer()
+	{
+		
+	}
+	
 	public void Start()
 	{
 		mMonitor.OnServerStart();
